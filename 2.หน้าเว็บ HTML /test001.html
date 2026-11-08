@@ -1,1 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+
+
+  <div class="container ">
+    <a class="navbar-brand" href="#">CCwebsite</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+      
+      <form class="d-flex">
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Login
+</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+</div>
+
+  <div class="container mt-5 mb-3">
+  <div class="row">
+    <div class="col-sm-7">
+        <h3>ข้าวเหนียวหมูทอด</h3>
+        <h6>นายพิธโสภณ วงษ์ภักดี</h6>
+        <h6>รหัสนักศึกษา 68219010029</h6>
+        <h6>สท.2/2</h6>
+        <h6>แผนกเทคโนโลยีสารสนเทศ</h6>
+        <button type="button" class="btn btn-warning">อ่านเพิ่มเติม</button>
+    </div>
+    <div class="col-sm-5 ">
+        <img src="img/audif1.jpg" width="350"  >
+    </div>
+  </div>
+
+
+ <div class="container mt-5 mb-3">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="news-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">ข่าว</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="actvity-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">กิจกรรม</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">ติดต่อ</button>
+  </li>
+</ul>
+<div class="tab-content border p-3" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="news-tab">วันที่22ตุลาคม มีไก่ทอดหาดใหญ่</div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="actvity-tab">แข่งกินข้าวเหนียวหมูหน้ารวม 4กิโล ภายใน30นาที รางวัล2000บาท</div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">โทร 099-990-9090</div>
+</div>
+  </div>
+
+<div class="container mt-3">
+  <div class="bg-dark p-3 text-light rounded-top">สมัครสมาชิก</div>
+
+<div class="tap-content border p-3">
+<div class="row">
+  <div class="col-sm-6">
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">ชื่อ-นามสกุล</label>
+  <input type="name" class="form-control" id="exampleFormControlInput1" >
+</div>
+</div>
+<div class="col-sm-6">
+  <label for="exampleFormControlInput1" class="form-label">Email</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" >
+</div>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">เบอร์โทร</label>
+  <input type="tel" class="form-control" id="exampleFormControlInput1" >
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">จังหวัด</label>
+  <select class="form-select" aria-label="Default select example">
+  <option selected>ชลบุรี</option>
+  <option value="1">ระยอง</option>
+  <option value="2">จันทบุรี</option>
+  <option value="3">สงขลา</option>
+</select>
+</div>
+<label class="form-check-label mt-2" for="flexRadioDefault1">เพศ</label>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    ชาย
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    หญิง
+  </label>
+</div>
+<label class="form-check-label mt-2" for="flexRadioDefault1">ความสนใจ</label>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    กีฬา
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    ดนตรี
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    อาหาร
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    คอมพิวเตอร์
+  </label>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">ความคิดเห็น</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+<button type="button" class="btn btn-success">บันทึก</button>
+<button type="button" class="btn btn-danger">ยกเลิก</button>
+</div>
+</div>
+</div>
+
+
+  <footer class="mt-5 mb-2 text-light text-center bg-dark p-3">
+    <div class="container">
+      noyx_c
+    </div>
+  </footer>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+<input class="form-control mb-2" type="text" placeholder="Username" aria-label="default input example" >
+<input class="form-control mb-2" type="text" placeholder="Password" aria-label="default input example" >
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    Remember me
+  </label>
+</div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Login</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
 
